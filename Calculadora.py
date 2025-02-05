@@ -68,7 +68,7 @@ def Igual():
 
 
 #Definição dos itens
-tela = Entry(root, width=35, font=("courier", 16))
+tela = Entry(root, width=12, font=("courier", 46))
 botao_1 = Button(root, text="1", font="courier", padx=45, pady=45, command=lambda: Clique(1))
 botao_2 = Button(root, text="2", font="courier", padx=45, pady=45, command=lambda: Clique(2))
 botao_3 = Button(root, text="3", font="courier", padx=45, pady=45, command=lambda: Clique(3))
